@@ -1,5 +1,79 @@
-main {
-  font-size: 21;
-  color: blue;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.seccion {
+  background-color: rgb(31, 1, 66);
+  color: aliceblue;
   text-align: center;
+  padding: 0px;
+  border: 1px solid white;
+}
+
+.seccion li {
+  display: inline-block;
+  font-size: 150%;
+  padding: 5px;
+  margin: 0px 70px;
+  font-style: oblique;
+}
+
+.container {
+  color: rgb(255, 255, 255);
+  font: 18px "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  align-content: center;
+  background-color: black;
+  font-style: oblique;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+  display: block;
+}
+
+.tope {
+  border: rgb(31, 1, 66) 19px;
+  padding: 30px 0px;
+}
+
+section {
+  background-color: rgb(31, 1, 66);
+  padding: 50px 50px;
+  margin-right: 500px;
+  margin-left: 50px;
+  float: left;
+  border: 1px solid white;
+}
+
+section p {
+  color: white;
+}
+
+section h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
+aside {
+  float: right;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 5px;
+  border: 1px solid white;
 }
